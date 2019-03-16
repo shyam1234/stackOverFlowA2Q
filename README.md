@@ -3,9 +3,9 @@ Trying to answer to question given in StackOverflow
 
 public class MoviePosterAdapter extends RecyclerView.Adapter<MoviePosterAdapter.ViewHolder> {
 
-private List<Movie> mMoviePosters;
+		private List<Movie> mMoviePosters;
 
-public class ViewHolder extends RecyclerView.ViewHolder {
+		public class ViewHolder extends RecyclerView.ViewHolder {
 			public ImageView mImgPoster;
 			public TextView mMovieName;
 
