@@ -1,5 +1,6 @@
 # stackOverFlowA2Q
 Trying to answer to question given in StackOverflow
+
 public class MoviePosterAdapter extends RecyclerView.Adapter<MoviePosterAdapter.ViewHolder> {
 
 		private List<Movie> mMoviePosters;
