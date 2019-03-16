@@ -3,7 +3,7 @@ Trying to answer to question given in StackOverflow
 
 public class MoviePosterAdapter extends RecyclerView.Adapter<MoviePosterAdapter.ViewHolder> {
 
-		private List<Movie> mMoviePosters;
+		private List<MoviePoster> mMoviePosters;
 
 		public class ViewHolder extends RecyclerView.ViewHolder {
 			public ImageView mImgPoster;
@@ -18,7 +18,7 @@ public class MoviePosterAdapter extends RecyclerView.Adapter<MoviePosterAdapter.
 		}
 
 
-		public MoviePosterAdapter(List<Movie> mMoviePosters) {
+		public MoviePosterAdapter(List<MoviePoster> mMoviePosters) {
 			this.mMoviePosters = mMoviePosters;
 		}
 
