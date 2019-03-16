@@ -32,7 +32,7 @@ public class MoviePosterAdapter extends RecyclerView.Adapter<MoviePosterAdapter.
 
 		@Override
 		public void onBindViewHolder(ViewHolder holder, int position) {
-			Movie poster = mMoviePosters.get(position);
+			MoviePoster poster = mMoviePosters.get(position);
 			holder.mMovieName.setText(poster.name);
 			Glide.with(holder.itemView.context)
 					.setDefaultRequestOptions(requestOptions)
