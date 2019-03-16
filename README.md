@@ -8,11 +8,12 @@ public class MoviePosterAdapter extends RecyclerView.Adapter<MoviePosterAdapter.
 		public class ViewHolder extends RecyclerView.ViewHolder {
 			public ImageView mImgPoster;
 			public TextView mMovieName;
-
+                        public View itemView;
 			public ViewHolder(View view) {
 				super(view);
 				mImgPoster = (ImageView) view.findViewById(R.id.image);
 				mMovieName = (TextView) view.findViewById(R.id.moviename);
+				itemView = view;
 				
 			}
 		}
